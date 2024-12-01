@@ -31,4 +31,6 @@ public class UserController {
         User result = repository.save(user);
         return result;
     }
+    //TODO: add put and delete methods
+    //TODO: add troubleshooting
 }
